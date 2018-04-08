@@ -1,0 +1,7 @@
+name: ylTp
+author: [yLikedG0D]
+main: com.liked.Main
+version: 1.0
+commands:
+  tp:
+   aliases: [teleporte]
