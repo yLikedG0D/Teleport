@@ -4,4 +4,4 @@ main: com.liked.Main
 version: 1.0
 commands:
   tp:
-   aliases: [teleporte]
+   aliases: [teleporte, teleportar]

@@ -1,0 +1,6 @@
+Tp: 
+ TpNoPerm: '&cVocê não tem permissão para executar este comando.'
+ UsageArg: '&cVocê deve usar /tp <jogador> para se teleportar ao jogador.'
+ YouSelf: '&cVocê não pode se teleportar para si mesmo.'
+ Teleported: '%n% &aVocê teleportou-se para o jogador %player%. %n%'
+ NotFoundPlayer: '&cNão foi possível encontrar este jogador.'  

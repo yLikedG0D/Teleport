@@ -11,8 +11,13 @@ private static Main instance;
 	        return Main.instance;
 	    }
 
+	@Override
 	public void onEnable() {
 		System.out.println("§ePlugin de teleport habilitado com sucesso.");
 		getCommand("tp").setExecutor(new Tp());
+		(Main.instance = this).saveDefaultConfig();
+	}
+	public void onDisable() {
+		(Main.instance = this).saveDefaultConfig();
 	}
 }
